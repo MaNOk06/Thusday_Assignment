@@ -8,6 +8,8 @@ public class Factorial {
         System.out.println("Enter number you want to find factorial of: ");
         int userInput = input.nextInt();
 
+        int originalUserInput = userInput;
+
         // Factorials end at 1
         int result = 1;
         while(userInput > 1){
@@ -16,6 +18,6 @@ public class Factorial {
             userInput --;
         }
 
-        System.out.println("Result for " + userInput +" is " + result);
+        System.out.println("Result for " + originalUserInput +" is " + result);
     }
 }
